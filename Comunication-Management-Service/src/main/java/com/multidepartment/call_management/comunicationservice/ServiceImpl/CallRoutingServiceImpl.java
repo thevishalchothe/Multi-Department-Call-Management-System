@@ -8,16 +8,13 @@ import com.multidepartment.call_management.comunicationservice.ServiceI.CallRout
 import com.multidepartment.call_management.comunicationservice.repository.CallRoutingRepository;
 
 @Service
-public class CallRoutingServiceImpl implements CallRoutingServiceI  {
+public class CallRoutingServiceImpl implements CallRoutingServiceI {
 
-	 @Autowired
-	 private CallRoutingRepository callRoutingRepository;
+    @Autowired
+    private CallRoutingRepository callRoutingRepository;
 
-	 @Autowired
-	 private RestTemplate restTemplate;
+    @Autowired
+    private RestTemplate restTemplate;
 
-	   
-
-	  
-    
+   
 }
