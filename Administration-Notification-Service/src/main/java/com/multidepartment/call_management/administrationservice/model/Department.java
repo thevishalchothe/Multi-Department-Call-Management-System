@@ -12,12 +12,12 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @Document(collection = "departments")
 public class Department {
-	
+    
     @Id
     private String id;
     private String name;                // Department name, e.g., HR
     private String extensionNumber;     // Extension number, e.g., "1"
     private String contactEmail;        // Contact email of the department
+    private String mobileNumber;        // Department mobile number (to be dialed when the extension is called)
     
 }
-
