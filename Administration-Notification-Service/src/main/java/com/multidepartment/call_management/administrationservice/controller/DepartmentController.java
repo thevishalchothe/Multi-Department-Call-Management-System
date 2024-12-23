@@ -67,5 +67,6 @@ public class DepartmentController {
 		departmentServiceI.deleteDepartment(id);
 		return new ResponseEntity<>("Department deleted successfully", HttpStatus.OK);
 	}
+	
 
 }
