@@ -13,11 +13,12 @@ import java.time.LocalDateTime;
 @NoArgsConstructor
 @Document(collection = "notifications")
 public class Notification {
-	
+
     @Id
     private String id;
     private String message;           // Notification message
     private LocalDateTime timestamp;  // Time the notification was generated
     private String type;              // Type: MISSED_CALL, EMERGENCY, INFO
+    private String departmentId;      // The department that the notification is for
     
 }
