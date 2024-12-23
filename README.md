@@ -103,3 +103,25 @@ The system implements **Call Routing** to direct incoming calls to the appropria
 
 ---
 
+## **Contributing** 💡
+
+We welcome contributions to the **Call Management System**! Here's how you can contribute:
+
+1. Fork the repository and create a new branch.
+2. Implement your feature or fix the bug.
+3. Commit your changes and submit a pull request.
+4. If you're reporting an issue, provide as many details as possible to help resolve it faster.
+
+For any assistance or inquiries, feel free to contact me at [vishalchothe134@gmail.com](mailto:vishalchothe134@gmail.com).
+
+---
+
+## **License** 📜
+
+Using an open-source license promotes professional software development, encouraging collaboration and contributions from the community.  
+See the [LICENSE](https://github.com/thevishalchothe) file for more information.
+
+---
+
+## **Thank You and Best Regards!** 🙏🎉
+
