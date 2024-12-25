@@ -80,15 +80,21 @@ Before you begin, make sure you have the following installed:
 
 Use **Postman** or any other API testing tool to test the following endpoints:
 
-- **POST /api/department** 🏢: Create a new department.
-- **GET /api/department/{id}** 🏢: Retrieve department details.
-- **POST /api/calllog** 📞: Log a new call.
-- **GET /api/calllog/{id}** 📞: Retrieve call log details.
-- **POST /api/emergencycall** 🚨: Log an emergency call.
-- **POST /api/user** 👤: Add a new user to the system.
-- **POST /api/notification** 📲: Send a new notification to users.
+- **POST /api/departments** 🏢: Create a new department.
+- **GET /api/departments/{id}** 🏢: Retrieve department details.
+- **GET /api/departments/extension/{extensionNumber}** 🏢: Retrieve department details by extension number.
+- **POST /api/call-logs/add** 📞: Log a new call.
+- **GET /api/call-logs/getsingle/{id}** 📞: Retrieve call log details by ID.
+- **GET /api/call-logs/getAll** 📞: Retrieve all call logs.
+- **PATCH /api/call-logs/update/{id}** 📞: Update a call log by ID.
+- **DELETE /api/call-logs/deletesingle/{id}** 📞: Delete a specific call log by ID.
+- **DELETE /api/call-logs/deleteAll** 📞: Delete all call logs.
+- **POST /api/callroutes/route** 📱: Route a call to a department based on the extension number.
+- **POST /api/users** 👤: Add a new user to the system.
+- **POST /api/notifications** 📲: Send a new notification to users.
 
 ---
+
 
 ## **Call Routing** 📞🔄
 
