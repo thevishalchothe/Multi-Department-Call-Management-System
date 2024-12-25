@@ -1,7 +1,7 @@
 # **Multi-Department Call Management System** 🏢📞💼
 
 ## **Project Overview** 🌐  
-The **Multi-Department Call Management System** is a scalable solution designed to manage calls within multi-department organizations. Key features include **call logging**, **department management**, **emergency call handling**, and **real-time notifications**. A core highlight is the **Call Routing** capability, which directs calls to specific departments or services based on dialed inputs (e.g., "1" for HR, "2" for IT). Built using a **microservices architecture**, this system ensures flexibility, scalability, and maintainability.
+The **Multi-Department Call Management System** is a scalable solution designed to manage calls within multi-department organizations. Key features include **call logging**, **department management**, **emergency call handling**, and **real-time notifications not done yet**. A core highlight is the **Call Routing** capability, which directs calls to specific departments or services based on dialed inputs (e.g., "1" for HR, "2" for IT). Built using a **microservices architecture**, this system ensures flexibility, scalability, and maintainability.
 
 ---
 
