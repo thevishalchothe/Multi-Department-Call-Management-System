@@ -47,4 +47,9 @@ public class DepartmentServiceImpl implements DepartmentServiceI {
 		departmentRepository.deleteById(id);
 	}
 
+	@Override
+	public Department getDepartmentByExtension(String extensionNumber) {
+		return departmentRepository.findByExtensionNumber(extensionNumber);
+	}
+
 }

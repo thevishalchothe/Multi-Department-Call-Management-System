@@ -16,4 +16,6 @@ public interface DepartmentServiceI {
 
 	void deleteDepartment(String id);
 
+	Department getDepartmentByExtension(String extensionNumber);
+
 }
